@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Tugas Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="stylex.css">
+</head>
+<body bgcolor="#34495E">
+	<div class="tengah">
+
+	<form Name="calc">
+	<center>
+	<table border=0 class="style" style="border-radius:10px;">
+	<tr>
+	<td colspan=4 align="center" style="color:white;text-decoration:none;font-family:sans-serif; font-size:12pt;">K  L K  L  T  R - 0 0 7</td>
+	</tr>
+	<tr>
+	<td colspan=3><input type=text Name="display" style="border-radius:10px;"></td>
+	<td> <input type=button class="buttonoperasi" value="=" OnClick="calc.display.value=eval(calc.display.value)"> </td>
+	</tr>
+
+	<tr>
+	<td><input type=button class="buttonangka" value="1" OnClick="calc.display.value+='1'"></td>
+	<td><input type=button class="buttonangka" value="2" OnClick="calc.display.value+='2'"></td>
+	<td><input type=button class="buttonangka" value="3" OnClick="calc.display.value+='3'"></td>
+	<td><input type=button class="buttonoperasi" value="+" OnClick="calc.display.value+='+'"></td>
+	</tr>
+
+	<tr>
+	<td><input type=button class="buttonangka" value="4" OnClick="calc.display.value+='4'"></td>
+	<td><input type=button class="buttonangka" value="5" OnClick="calc.display.value+='5'"></td>
+	<td><input type=button class="buttonangka" value="6" OnClick="calc.display.value+='6'"></td>
+	<td><input type=button class="buttonoperasi" value="-" OnClick="calc.display.value+='-'"></td>
+	</tr>
+
+	<tr>
+	<td><input type=button class="buttonangka" value="7" OnClick="calc.display.value+='7'"></td>
+	<td><input type=button class="buttonangka" value="8" OnClick="calc.display.value+='8'"></td>
+	<td><input type=button class="buttonangka" value="9" OnClick="calc.display.value+='9'"></td>
+	<td><input type=button class="buttonoperasi" value="x" OnClick="calc.display.value+='*'"></td>
+	</tr>
+
+	<tr>
+	<td><input type=button class="buttonangka" value="0" OnClick="calc.display.value+='0'"></td>
+	<td><input type=button class="buttonclr" value="Clr" OnClick="calc.display.value=''"></td>
+	<td><input type=button class="buttonoperasi" value="%" OnClick="calc.display.value+='%'"></td>
+	<td><input type=button class="buttonoperasi" value="/" OnClick="calc.display.value+='/'"></td>
+	</tr>
+	</table>
+	
+	<p style="color:white;text-decoration:none;font-family:sans-serif; font-size:12pt;">Bayusaurus - 2K18</p>
+	</center>
+	</form>
+	</div>
+</body>
+</html>
